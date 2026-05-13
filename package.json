@@ -4,8 +4,8 @@
   "description": "Full Stack Developer Portfolio",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js",
-    "server": "nodemon src/server.js",
+    "start": "node backend/src/server.js",
+    "server": "nodemon backend/src/server.js",
     "client": "serve ../frontend -p 3000",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "seed": "node seed.js"
