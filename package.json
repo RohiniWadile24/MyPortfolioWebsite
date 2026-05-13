@@ -4,8 +4,8 @@
   "description": "Full Stack Developer Portfolio",
   "main": "backend/src/server.js",
   "scripts": {
-    "start": "node backend/src/server.js",
-    "server": "nodemon backend/src/server.js",
+    "start": "node src/server.js",
+    "server": "nodemon src/server.js"
     "client": "serve frontend -p 3000",
     "dev": "concurrently \"npm run server\" \"npm run client\" \"npm run open\"",
     "open": "wait-on http-get://localhost:3000 && start http://localhost:3000",
