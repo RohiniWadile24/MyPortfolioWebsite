@@ -2,14 +2,13 @@
   "name": "fullstack-portfolio",
   "version": "1.0.0",
   "description": "Full Stack Developer Portfolio",
-  "main": "backend/src/server.js",
+  "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
-    "server": "nodemon src/server.js"
-    "client": "serve frontend -p 3000",
-    "dev": "concurrently \"npm run server\" \"npm run client\" \"npm run open\"",
-    "open": "wait-on http-get://localhost:3000 && start http://localhost:3000",
-    "seed": "node backend/seed.js"
+    "server": "nodemon src/server.js",
+    "client": "serve ../frontend -p 3000",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "seed": "node seed.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
