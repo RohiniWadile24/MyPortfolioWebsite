@@ -1,4 +1,4 @@
-const API_BASE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' || window.location.hostname === '' ? 'http://localhost:5000/api/v1' : '/api/v1';
+const API_BASE_URL = 'https://myportfoliowebsite-yf8m.onrender.com/api/v1';
 
 export const fetchProfile = async () => {
     try {
