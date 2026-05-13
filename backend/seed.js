@@ -9,9 +9,9 @@ const connectDB = require('./src/config/db');
 
 const importData = async () => {
   try {
+    console.log('Connecting to DB...');
     await connectDB();
-
-    await Profile.deleteMany();
+    console.log('Connected. Deleting old data...');
     await Project.deleteMany();
     await Skill.deleteMany();
     await Social.deleteMany();
@@ -41,19 +41,19 @@ const importData = async () => {
       {
         title: 'My Portfolio Website',
         description: 'A full stack developer portfolio website with dynamic projects, contact form integration, and MongoDB backend.',
-        imageUrl: 'https://via.placeholder.com/400x300',
+        imageUrl: '/assets/portfolio-project.png',
         techStack: ['MongoDB', 'Express', 'React', 'Node.js'],
         githubUrl: 'https://github.com/RohiniWadile24/MyPortfolioWebsite',
         liveUrl: 'https://example.com',
         featured: true
       },
       {
-        title: 'Task Management App',
-        description: 'A responsive task management application allowing users to organize projects, assign tasks, and track progress with interactive dashboards.',
-        imageUrl: 'https://via.placeholder.com/400x300',
+        title: 'Taskify- Todo List App',
+        description: 'A responsive todo list application allowing users to organize their tasks as per prority level and status.',
+        imageUrl: '/assets/taskify-project.png',
         techStack: ['MongoDB', 'Express', 'React', 'Node.js'],
-        githubUrl: 'https://github.com/RohiniWadile24/Task-Management-App',
-        liveUrl: 'https://example.com',
+        githubUrl: 'https://github.com/RohiniWadile24/Taskify---TodoList-App-',
+        liveUrl: 'https://taskify-todo-list-app-beta.vercel.app/',
         featured: true
       }
     ]);
