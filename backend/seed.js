@@ -44,7 +44,7 @@ const importData = async () => {
         imageUrl: '/assets/portfolio-project.png',
         techStack: ['MongoDB', 'Express', 'React', 'Node.js'],
         githubUrl: 'https://github.com/RohiniWadile24/MyPortfolioWebsite',
-        liveUrl: 'https://example.com',
+        liveUrl: 'https://my-portfolio-website-eight-mu.vercel.app/',
         featured: true
       },
       {
