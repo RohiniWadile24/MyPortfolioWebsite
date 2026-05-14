@@ -1,6 +1,8 @@
 # Full-Stack Developer Portfolio
 
-![Portfolio Preview](./screenshots/portfolio-preview.png)
+| Desktop View | Mobile View |
+| :---: | :---: |
+| ![Desktop Preview](./screenshots/portfolio-preview.png) | <img src="./screenshots/portfolio-mobile.png" width="250"> |
 
 A modern, responsive, full-stack developer portfolio website.
 
