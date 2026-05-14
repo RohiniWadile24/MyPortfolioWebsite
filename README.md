@@ -1,5 +1,7 @@
 # Full-Stack Developer Portfolio
 
+![Portfolio Preview](./screenshots/portfolio-preview.png)
+
 A modern, responsive, full-stack developer portfolio website.
 
 ## Features
